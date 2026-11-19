@@ -96,7 +96,7 @@ function App() {
   };
 
   return (
-    <ThemeProvider defaultTheme="system" storageKey="transport-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="transport-theme">
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
           <SidebarProvider style={style as React.CSSProperties}>
